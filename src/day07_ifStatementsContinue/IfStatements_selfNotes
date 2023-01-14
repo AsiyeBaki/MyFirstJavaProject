@@ -1,0 +1,77 @@
+IF STATEMENTS
+
+
+single if : for ONE condition
+
+
+		if (Condition) {
+		StatementA
+		}
+
+if & else : for TWO conditions
+
+	Yes or No
+	Passed or Failed
+	Odd or Even
+	Eligible or Not Eligible
+	Employeed or not employeed
+	full time or part time
+	married or not married
+	...
+
+		if (Condition) {
+		StatementA
+		} else {
+		StatementB
+		}
+
+
+multi branch if: for THREE and MORE conditions
+
+		if (Condition1) {
+		StatementA
+		} else if (Condition2) {
+		Statment B
+		} else if (Condition3) {
+		StatementC
+		}
+		...
+		else{
+		StatamentD
+		}
+
+		ONLY one block gets executed
+
+		A: Condition1 is true
+		B: Condition1 is false, Condition2 is true
+		C: Condition3 is false, Condition2 is false, Condition3 is true
+
+
+Nested If: for PRE-CONDITIONS
+
+		if (Pre-Condition) {
+
+			if (ConditionA) {
+			StatementA
+			} else {
+			StatementB
+			}
+		} else {
+		StatamentC
+		}
+
+
+		A: Pre-Condition is true, ConditionA is true
+		B: Pre-Condition is true, ConditionA is false, ConditionB is true
+		C: Pre-Condition is false
+
+
+
+
+TERNARY OPERATIONS
+
+variable = (Condition) ? value1 : value2 ;
+
+
+?  if
+: else

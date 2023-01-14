@@ -1,0 +1,21 @@
+
+Java Programming Day19
+
+Topics: Arrays Intro
+        Arrays Utility
+
+
+Data Structure
+stores the data, stores multiple elements in the data
+=== Array one of the structure in Java and contains both PRIMITIVE data and NON-PRIMITIVE datas
+=== Declaring an Array, giving square brackets is a MUST to declare an Array
+=== variableDataType variableName int scores [];  or int [] scores;
+=== Then you need to initialize the element
+=== instantiating
+
+    int [] scores;
+    scores = new int [4];      or
+
+    int [] scores = new int [4];
+    String [] names = new names [5];
+

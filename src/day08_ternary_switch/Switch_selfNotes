@@ -1,0 +1,68 @@
+
+                SWITCH STATEMENTS - Brief Class Notes -
+
+
+        there are 4 type of conditions that SWITCH does NOT accept
+        boolean, long, float, double
+        boolean condition ONLY for 'IF statements' and 'TERNARY' in java
+        long can not be acceptable in switch, it must be evaluated to a single value only, numbers or characters
+        float can not be acceptable in switch
+        double is not accepted in the switch,
+        int byte short char are accepted in the switch.
+
+
+
+        Switch statements: switch, case, default, break, can include to switch statements what can be member of switch statements
+
+
+
+        syntax:
+                switch(data/variable) {
+
+                case data1:
+                        Statements;
+                        break;
+                case data2:
+                        Statements;
+                        break;
+                case data3:
+                        Statements;
+                        break;
+                default:
+                        Statements;
+
+                }
+
+                Switch expression (Data) can not be boolean, float, double, long
+
+                Case block' value must be UNIQUE
+
+                break: used for exiting the switch
+                default block gets executed if none of the case values match with switch expression
+                or logic we can use it in swwitch by declaring the case blocks back to back
+
+
+
+
+
+
+
+                        // Import Statements
+        Scanner class is presented in java.util package, and need to be imported in our program to use it.
+        Import statements needs to be placed right after the package statement
+
+        * import java.util.Scanner;
+        import is 'keyword'
+        java.util is 'package'
+        Scanner is 'class'
+
+
+        Import Statements:  used for importing one java file to another
+
+                regular import: imports one single class from the specified package
+
+                        import package.className
+
+
+                wild import: imports everything from the package
+                        import package.*;

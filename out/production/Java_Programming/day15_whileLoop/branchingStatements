@@ -1,0 +1,15 @@
+Branching Statements
+
+- Branching (Jump) Statements:
+        1.Return
+        2.Break
+        3.Continue
+
+Used to change the normal flow of execution
+
+
+Break Statement: to terminate the loop
+can be use only with SWITCH and LOOPS methods
+
+Continue Statement: skips the current iteration of the loop
+        - Tells the interpreter to jumps to the next iteration

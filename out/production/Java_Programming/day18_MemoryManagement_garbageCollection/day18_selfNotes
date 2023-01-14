@@ -1,0 +1,87 @@
+Every object comes from the class.
+== What is an object ?
+
+An instance of a class
+Multiple objects can be created from a class
+Each objects has its own memory
+The data stored in an object are called fields/attributes
+
+== Writing a custom class
+Class name: dog
+fields/attributes: name breed size age color
+Methods/Actions: eat drink play run
+
+Access modifier/ keyword /ClassName
+        public class Dog {
+
+            public String name;
+            public String breed;
+        }
+
+        public void eat () {
+        System.out.println(name+" is eating");
+        }
+        public void drink () {
+        System.out.println(name+" is drinking);
+        }
+
+==Creating an object/instance
+-- Constructor
+Dog dog1 = new Dog(); -- > object = keyword constructor/ new Dog();
+ClasName ObjectName = keyword constructor
+
+== instance VARIABLES: name breed size color id SSN ...
+Declared inside the class and outside any methods/blocks
+
+Belongs to the object, each object has a different copy of the instance variable
+Used by the objects to store their data members
+
+== instance METHODS: eat(); drink();
+               Methods are declared without the STATIC keyword
+               Belongs to the object. Each object has a different copy of the instance methods
+               Used by the objects to perform their task
+== How to write a class?
+1. Create a class name ......... Ex: public class Dog
+2. Declare instance variables .. Ex: public String name; public String breed;..
+3. Declare instance methods .... Ex: public void eat(){ print statements}
+
+!!!! using new keyboard is MUST to create an objects in java,
+besides String since we have 2 ways to create String literal and new String  !!!
+
+===================Java Memory Allocation==   Stack Memory VS Heap Memory
+
+Process of allocation of the objects
+Java does memory allocations automatically
+JVM divides memory into stack and heap
+
+== Stack Memory
+A section of memory that contains:
+    Method invocations
+    Local variables
+== Heap Memory
+A section of memory that contains:
+    Objects
+    Instance Variables
+
+================= Java Memory Deallocation
+-Process of deallocation of the objects or removal of the objects
+-It has automatically done by garbage collector, which removes unreferenced objects from heap memory
+-Garbage collector is part of JVM
+
+== How can an object be unreferenced?
+2 ways
+
+1. By nulling the reference / assigning the null key
+    Dog d = new Dog();
+    d = null;
+2. By assigning reference to another object
+    Dog d1 = new Dog();
+    Dog d2 = new Dog();
+    d1=d2; // now the first object referred by d1 is available for garbage collection
+
+== As long as you create a custom class, finalize method automatically will be added.
+So any object has finalize method. it implicitly calls by garbage collector.
+Once we create a class, there are some default methods that automatically added to class,
+includes finalize method. There is no point to call garbage collection explicitly/forcefully since it does itself when its needed ===
+
+

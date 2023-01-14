@@ -1,0 +1,58 @@
+    Scanner Self Notes
+
+
+        input.close(); // scanner is closed, can not read user inputs again
+
+        // it will give an error to print fifth number and the statements after it,
+        // since scanner is closed at line 33
+
+        // input.reset() <-- this is one of the ways to reopen it, BUT it will not let you do it after certain times
+
+
+// when we are importing from Scanner or any package, we have to provide
+the import statement. For Scanner: import java.util.Scanner;
+// when you call the system.out.println, system automatically
+prints the import statement " import java.lang.system" . its statement actually is always there
+
+
+        // for "System" we do not need to
+
+        System.out.println("Enter your fifth number: ");
+        double num5 = input.nextDouble(); // or float, float num3 = input.nextDouble();
+
+        System.out.println("Enter your sixth number: ");
+        float num6 = (float) input.nextDouble();
+
+
+
+        SCANNER METHODS
+
+        nextByte()
+        nextShort()
+        nextInt()
+        nextLong()
+        nextFloat()
+        nextDouble()
+        nextBoolean()
+        next()
+        nextLine()
+
+
+        //        IMPORT STATEMENT
+        //import java.util.Scanner; <-- regular import
+        // import java.util.*;       <-- wild import
+        // using wild import is like; buying entire grocery store instead of one item like cherry the only item you need
+        // it costs more memory and it is not rational, Scanner helps us to pull specific files
+        // import statement: used for importing one java file to another
+        // regular import: imports one single class from a package
+        // import package.className
+        // wild import: imports whole package
+        // import package.*;
+
+
+
+
+        // input.nextLine() will print the entire line, as "Today is Friday"
+        // vs. to input.next() will print word by word
+
+        // if there is nothing in Test.txt file it will give an error of NoSuchElementException

@@ -1,0 +1,55 @@
+Loops
+
+- Loops check a condition
+- if the condition returns true, a code block will run
+- The condition will be checked again
+- It repeats until condition returns false
+
+Types of Loops in Java
+1. For Loop
+2. While Loop
+3. Do while
+
+1.For loop:
+        Runs the given code a specific number of times.
+        initialization is the starting point of loop
+        Condition is the ending point of the loop
+        Iterator is responsible for making the condition false
+
+- Syntax of the for loop:
+            for(initialization; condition; Iteration( {
+            //Statements
+            }
+
+           The initialization expression initializes the loop
+           When the condition expression evaluates to false, loop stops running
+           The iteration gets executed after each iteration through the loop
+
+- For Loop Flow:
+                The first time the loop is run, the variable is assigned by a value
+                Everytime the loop is run, condition is checked
+                Then the code inside loop (between curly brackets) gets executed
+                When the statements in curly braces have finished, the iteration gets executed
+
+
+Ex:
+Loop {
+    statement 1 ;
+    statement 2;
+    continue;
+    statement 3;  //
+    statement 4 ;  // There statements are skipped
+    }
+
+
+
+While LOOP :  the best time to use whenever iteration is unknown, versus to for loop we know start and end numbers
+        - Repeated if Statement
+        - condition is checked at loop starts
+        - loops gets terminated when condition is evaluated to false
+
+Syntax of While Loop:
+            while (number <= 5){
+                    System.out.println("Hello");
+                    number++;
+            }

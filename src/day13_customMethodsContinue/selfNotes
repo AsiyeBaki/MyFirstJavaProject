@@ -1,0 +1,50 @@
+day 13
+
+Methods: grouping code fragments ===> creating function
+
+        Access-Modifier    Specifier   Return-Type   methodName(parameter) {
+                Code fragments
+        }
+
+
+Access modifier : public, protected, default, private  ( we will study of this others in later class)
+        public: ALWAYS accessible
+
+Specifier: static, final, abstract, synchronized
+        static: can be called through the class name
+
+Return-type: void, if you do not want any value to be returned, it has to be void
+        void: does not return any value
+
+MethodName: could be any name
+        methodName: as long as it is MEANINGFUL, READABLE, DESCRIPTIVE, UNDERSTANDABLE FOR EVERYONE
+
+Parameters/arguments: void, any dataType
+        any dataType such as: String, char, boolean, byte, short, int, long, float, double..
+        void: does not return a value
+        any data type: must return a value
+
+
+- Methods must be declared inside of the class, outside any other block/methods
+  so outside of the main method body
+
+Return value:
+
+Return Statement: used for exiting(terminating) the current method
+    - when you give " return; " statement inside of the main method, main method will be terminated and
+    giving a code fragment after return; statement is useless because MAIN METHOD will be exited/
+
+
+return method vs void method===>
+for VOID: you can use return; statement but you can NOT assign a value
+for ANY DATA TYPE: you can use return _ ; but you must? assign a value
+
+// double n2 = input.close();  // this wont return you a value because it is void
+// String word = System.out.println("Hello");
+// out println ... are void methods, thats we can not use them to get a return
+
+
+//int total = sum(20, 40); //you wont be able to use it outside of the method IF your return type void
+// if you give int you will be able to use sum outside of the method
+// when you change it from void to int, it will give you an error for not putting return value
+// such as return result;  -->  must be used if it is not void

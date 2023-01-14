@@ -1,0 +1,45 @@
+
+
+Final Variables :
+        - Variable becomes a constant
+        - The value of the variable can not be modified
+        - We can not reassign a final variable
+
+        //   Can you change your date of birth?
+
+        // How many times you can use final keyword? only once
+        since we can assign only once, we never can be reassign it
+
+
+        public final static double pi = 3.14;  //  if you do not want this pi variable to be not changed, final keyword
+        public final String dateOfBirth;
+        public final String firstLanguage;
+
+
+
+Final Methods :
+        - Implementation of the method becomes unchangable
+        - Final methods can not be overridden
+        - Final method can not be applied to constructor
+
+
+        public final void method (){
+           System.out.println("Java Programming);
+        }
+
+        @Override
+        public void method (){                     //Compile Error
+           System.out.println("Python Programming);
+        }
+
+
+Final Class:
+
+       - A class that can not ne extended
+       - The class can not be a super (parent) class
+
+
+Final Keyword :
+
+
+

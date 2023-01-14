@@ -1,0 +1,79 @@
+
+
+		String Methods
+
+charAt()
+length()
+toLowerCase()
+toUpperCase()
+trim()
+indexOf()
+lastIndex()
+replace()
+replaceFirst()
+substring()
+repeat()
+
+(these String methods down below; return boolean value)
+isEmpty()
+isBlank()
+equals()
+equalsIgnoreCase()
+contains()
+startsWith()
+endsWith()
+
+
+
+String Types:
+            1. String literal
+            2. new String
+String pool: saves String literals
+if you create more than 1 string literal object, it will be created only one object in the pool.
+
+        String s1 = "Cat";
+
+        String s2 = "Dog";
+
+        String s3 = "Cat";
+
+        String s4 = "Cat";
+
+        System.out.println(s1==s3);  // true
+        System.out.println(s1==s4);  // true
+        System.out.println(s3==s4);  // true
+        System.out.println(s1==s2);  // false
+
+Creating String object by new keyword:
+
+    . Creates new different object in the heap
+
+    String str1 = new String ("Java");
+    String str2 = new String ("Java");
+
+  // str1==str2 returns false, because they are 2 different objects even though they print the same thing
+
+
+
+index Number:
+
+        Every character in string has an index number
+        Index number starts from ZERO
+        index number can not be negatif, never less than 0
+
+
+    String Methods
+
+    charAt();   :   used in order to print index number
+
+    length();   :   used in order to find out, how many character is in String,
+                    "Wooden Spoon"
+                     01234567891011
+                    char f = s1.charAt(0);
+                    int lastIndexNum = s1.length() - 1;
+                    char l =s1.charAt(1);
+                    System.out.println(f + " : " + l);
+    equals();  equals is case sensitive
+
+
+

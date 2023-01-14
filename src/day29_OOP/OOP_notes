@@ -1,0 +1,34 @@
+OOP Principles
+        1. Encapsualtion
+        2. Inheritance
+        3. Abstraction
+        4. Polymorphism
+# Encapsulation : hiding the data by giving private access modifiers
+
+            getter (READ ONLY) : public instance methods
+                                return type has to match with the data type of the instance variables
+                                passes no parameters
+
+            setter (WRITE ONLY): public instance methods
+                                return type is void
+                                pass a parameter
+
+
+-> The more restrictive data gives us the more control over data.
+
+
+# Inheritance:  Used for creating "is a " relationship among the classes
+                When an "is a" relationship exists between objects, it means that the specialized object has all the characteristics of the general object
+                It allows one class to inherit the features (variables & methods) of another class
+
+    -> parent class        AnimalClass: (we can add the common variables to animal class and extends the child class for unique actions
+                                  name, breed, size, weight, eat, move,
+    -> child class         Dog: legs, bark
+    -> child class         Cat: legs, meow, scratch
+    -> child class         Fish: swim
+
+
+
+
+
+

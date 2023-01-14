@@ -1,0 +1,99 @@
+Java Programming Week02
+
+Review Topics
+	1.Primitive Casting
+	2. Concatenation
+	3. Operators
+			Arithmetic
+			Shorthand
+			Unary
+			Regitional
+			Logical
+
+	4. IfStatements
+			Single if
+			If & Else
+
+	package name week02_review
+
+		Concatenation vs Addition: +
+
+				Addition: number + number -----> (2numbers)
+
+				Concatenation: text + any data ---> textanydata
+
+								any data + text ----> anydatatext
+
+								text + text -----> texttext
+		OPERATORS:
+
+			Arithmetic Operators: + , - , * , /
+
+					+: Addition:
+
+							"200" + 500 = 200500
+							500 + 400 = 900
+
+					-: Substraction:
+
+							1000 - 300 = 700
+
+					*: Multiplication:
+
+							20 * 5 = 100
+							2.5 * 2 = 5.0
+
+					/: Division:
+							10 / 2 = 5
+							10 / 3 = 3
+
+					%: Remainder:
+							in math: 20 / 8 = 2.5
+
+							remainder = 20 - (8 * 2)
+							remainder = 4
+
+						in Java: 20 % 8 ==> 4
+
+							100 / 28 = 3.57
+
+							remainder = 100 - (28 * 3)
+							remainder = 16
+
+							100 % 28 = 16
+
+			Shorthand Assignments:  += , -= , *= , /=
+
+
+			Unary Assignments: -- , ++   ////  decrement operator , increment operator
+
+								Pre decrement 			Post decrement
+								Pre-increment			Post increment
+
+
+			Logical Operations:
+							||
+							&&
+
+
+		If Statements: Conditional statements, decision making
+
+				single if: creating conditions for one possible output
+
+							if  (boolean Condition) {
+									statements
+							}
+
+				if & else: creating conditions for two possible outputs
+
+							if (Boolean Condition) {
+
+							}else{  // !
+
+							}
+
+				multi-branch if:
+
+				nested if:
+
+				ternary:

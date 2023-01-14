@@ -1,0 +1,14 @@
+Method Overloading
+
+- Parameters of the overloaded method must be different(number or parameters or data types of parameters)
+- Return Type of the overloaded method can be same or different
+- Method can be overloaded any number of times
+- Any method in java can be overloaded, even main method
+
+
+
+
+
+
+
+

@@ -1,0 +1,24 @@
+Heap Memory:
+        - ONLY objects and instance variables go to heap memory
+        - If we do not assign any value to a instance variable it will give it a default value and still will take memory in heap
+------------------------------------------------
+
+Stack Memory:
+        - Local variables allocated in stack
+        - Methods allocated in stack
+        - Reference Variables allocated in stack
+
+                public static void m3() {
+                Account red = new Account();
+                }
+                class Account {
+                int p;
+                int q;
+                }
+
+-----------------------------------------------
+   Default Values :
+        byte short int long ====> 0
+        float double ====> 0.0
+        boolean ===> false
+-------------------------------------------------

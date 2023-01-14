@@ -1,0 +1,19 @@
+
+CUSTOM CLASS AND OBJECT
+
+
+-Writing a custom class , you have to use instance Variables and instance Methods
+
+public class Dog {
+
+        public String name;
+        public String breed;
+        public String size;
+        public int age;
+        public String color;
+
+}
+
+Instance Methods:   - Does not have static keyword
+                    - Belongs to the object
+                    - Each object has a separate copy of the instance methods

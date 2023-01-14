@@ -1,0 +1,46 @@
+Components of Method
+
+public static void displayMessage () {   that how we create a method in a method body
+
+}
+
+Access modifier:   public
+        determines the visibility, public is open to the world and always accessible
+Static modifier:  static
+        allows us to call the method through the class name
+Return Type:     void
+        determine if the method returns a value. The same rules that apply to variable names also apply to method names
+Method Name:     displayMessage
+        method name is always followed by a set of parenthesis, can be capable of receiving arguments
+
+
+   --> if we want this greetings method to be executed, it has to be in main method
+
+   CUSTOM METHODS
+    1. Void Methods
+    2. Parameters
+    3. Return Methods
+    4. Return with parameters
+    5. Method Overloading
+!!! Methos has to be created in the class
+
+!!!  methods can be in the same body, within the class out side of the method
+it does not matter if you create the main method or your method first.
+as long as your method will be printed in main body it will be executed
+
+Passing Argument to Method
+- when we declare a method, parameters an be given
+- Parameters passed to the method act like variables
+- Used for providing additional information the method must have to perform its task
+
+Ex:     public static void displayValue (int num){
+        System.out.println("The value is " + num);
+        }
+
+Calling Method That Need Information
+- Must specify the values the method should use
+- values need to be given in the parenthesis that follows method name
+- the values we passed to the method are called arguments
+- Arguments can be provided as values or as variables
+
+Ex: displayValue (5);
